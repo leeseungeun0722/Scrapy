@@ -6,7 +6,7 @@
 import scrapy
 
 
-class CompanyItem(scrapy.Item):
-  company = scrapy.Field()
-  title = scrapy.Field()
-  
+class EverytimeItem(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    pass

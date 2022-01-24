@@ -1,4 +1,4 @@
-# Scrapy settings for company project
+# Scrapy settings for best_book project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'company'
+BOT_NAME = 'best_book'
 
-SPIDER_MODULES = ['company.spiders']
-NEWSPIDER_MODULE = 'company.spiders'
+SPIDER_MODULES = ['best_book.spiders']
+NEWSPIDER_MODULE = 'best_book.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'company (+http://www.yourdomain.com)'
+#USER_AGENT = 'best_book (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -45,13 +45,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'company.middlewares.CompanySpiderMiddleware': 543,
+#    'best_book.middlewares.BestBookSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'company.middlewares.CompanyDownloaderMiddleware': 543,
+#    'best_book.middlewares.BestBookDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -63,7 +63,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'company.pipelines.CompanyPipeline': 300,
+#    'best_book.pipelines.BestBookPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)

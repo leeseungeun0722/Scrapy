@@ -6,7 +6,9 @@
 import scrapy
 
 
-class CompanyItem(scrapy.Item):
-  company = scrapy.Field()
-  title = scrapy.Field()
-  
+class BestBookItem(scrapy.Item):
+   title = scrapy.Field()
+   author = scrapy.Field()
+   price = scrapy.Field()
+   score = scrapy.Field()
+
