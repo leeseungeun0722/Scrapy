@@ -25,7 +25,7 @@ class EverySpider(InitSpider):
     def check_login_response(self, response):
         print("================[확인중]================")
 
-        if response == '200 https://everytime.kr/login' :
+        if response == '200 https://everytime.kr/login':
             print("로그인 실패")
-        else :
+        else:
             print("로그인 성공")
