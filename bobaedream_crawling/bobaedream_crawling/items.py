@@ -7,8 +7,9 @@ import scrapy
 
 
 class BobaedreamCrawlingItem(scrapy.Item):
-    title = scrapy.Field()
-    url = scrapy.Field()
     date = scrapy.Field()
+    title = scrapy.Field()
     contents = scrapy.Field()
+    url = scrapy.Field()
+    enter = scrapy.Field()
     
