@@ -1,13 +1,15 @@
 import scrapy
 
-from bobaedream_crawling.items import BobaedreamCrawlingItem
+from all_community_crawl.items import AllCommunityCrawlItem
 
     
 # 제목과 본문에 해당 키워드가 있으면 제목, 본문, 날짜, 기사url 추출
-#    
-
+    
 PAGE = 3
-KEYWORD = '윤석열'
+KEYWORD = input("(키워드는 띄어쓰기로 구분됩니다) 키워드를 입력해주세요 : ").split(' ')
+Commuity = ["https://www.bobaedream.co.kr/list?code={0}"]
+Detail_url = ["&s_cate=&maker_no=&model_no=&or_gu=10&or_se=desc&s_selday=&pagescale=30&info3=&noticeShow=&s_select=&s_key=&level_no=&vdate=&type=list&page={1}"]
+Board = 'best famous freeb ad politic nnews battle'.split(' ')
 
 
 class BobaeSpiderSpider(scrapy.Spider):
@@ -16,9 +18,9 @@ class BobaeSpiderSpider(scrapy.Spider):
    
     #페이지 수
     def start_requests(self):
-        for i in range(1,PAGE):
-            main_url = "https://www.bobaedream.co.kr/list?code=politic&s_cate=&maker_no=&model_no=&or_gu=10&or_se=desc&s_selday=&pagescale=30&info3=&noticeShow=&s_select=&s_key=&level_no=&vdate=&type=list&page={0}".format(i)
-            yield scrapy.Request(main_url, self.parse)
+        main_url = []
+        for i in Board:
+            Commuity.format() 
  
     #페이지당 url
     def parse(self, response):
@@ -30,7 +32,7 @@ class BobaeSpiderSpider(scrapy.Spider):
     #해당 url 속 상세 기사 
     def parse_page_contents(self, response):
         items = []
-        item = BobaedreamCrawlingItem()
+        item = AllCommunityCrawlItem()
         item["title"] = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract() #상세 제목 
         item["contents"] = response.xpath('//*[@id="print_area"]/div[2]/div/p/text()').re('(\w+)')
         if (KEYWORD in item["title"]) or (KEYWORD in item["contents"]) :  #제목이나 본문에 키워드 있음 추출
