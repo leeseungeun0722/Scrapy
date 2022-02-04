@@ -17,8 +17,7 @@ NEWSPIDER_MODULE = 'bobae_commuity.spiders'
 #USER_AGENT = 'bobae_commuity (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = False
-LOG_FILE = 'test.log'
+ROBOTSTXT_OBEY = True
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32

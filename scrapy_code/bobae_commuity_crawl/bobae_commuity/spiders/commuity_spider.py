@@ -1,10 +1,7 @@
 import scrapy
-import time
-import schedule
 from bobae_commuity.items import BobaeCommuityItem
 
-Keyword = ['윤석열']
-# Keyword = input("(구분은 띄어쓰기로 합니다.) 키워드 입력해세요 : ").split(' ')
+Keyword = input("(구분은 띄어쓰기로 합니다.) 키워드 입력해세요 : ").split(' ')
 commuity_url = "https://www.bobaedream.co.kr/list?code={0}&page={1}"
 commuity = ("best famous freeb ad politic nnews battle").split(' ')  #개별 커뮤니티
 Page = 3 #페이지 설정
@@ -42,12 +39,5 @@ class BobaeSpiderSpider(scrapy.Spider):
         return items
 
 
-    def start_crawl():
-        print('scrapy crawl bobae')
-    
-    start_crawl()
 
 ## 추가 하고 싶은 거 => 각 커뮤니티 당 몇 페이지 까지 있는지 추출
-
-
-
