@@ -1,0 +1,1080 @@
+2022-02-04 09:36:54 [scrapy.utils.log] INFO: Scrapy 2.5.1 started (bot: bobae_commuity)
+2022-02-04 09:36:54 [scrapy.utils.log] INFO: Versions: lxml 4.6.3.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 21.7.0, Python 3.8.8 (default, Apr 13 2021, 19:58:26) - [GCC 7.3.0], pyOpenSSL 20.0.1 (OpenSSL 1.1.1k  25 Mar 2021), cryptography 3.4.7, Platform Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.10
+2022-02-04 09:36:54 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-02-04 09:36:54 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'bobae_commuity',
+ 'LOG_FILE': 'test.log',
+ 'NEWSPIDER_MODULE': 'bobae_commuity.spiders',
+ 'SPIDER_MODULES': ['bobae_commuity.spiders']}
+2022-02-04 09:36:54 [scrapy.extensions.telnet] INFO: Telnet Password: 9ffe9b64c864a109
+2022-02-04 09:36:54 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2022-02-04 09:36:54 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-02-04 09:36:54 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-02-04 09:36:54 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-02-04 09:36:54 [scrapy.core.engine] INFO: Spider opened
+2022-02-04 09:36:54 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-02-04 09:36:54 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-02-04 09:36:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/list?code=famous&page=2> (referer: None)
+2022-02-04 09:36:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/list?code=famous&page=1> (referer: None)
+2022-02-04 09:36:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/list?code=ad&page=1> (referer: None)
+2022-02-04 09:36:55 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET https://www.bobaedream.co.kr/view?code=event_notice&No=629> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2022-02-04 09:36:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/list?code=best&page=2> (referer: None)
+2022-02-04 09:36:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/list?code=ad&page=2> (referer: None)
+2022-02-04 09:36:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/list?code=politic&page=1> (referer: None)
+2022-02-04 09:36:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/list?code=freeb&page=1> (referer: None)
+2022-02-04 09:36:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/list?code=best&page=1> (referer: None)
+2022-02-04 09:36:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/list?code=freeb&page=2> (referer: None)
+2022-02-04 09:36:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/list?code=nnews&page=1> (referer: None)
+2022-02-04 09:36:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66589&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66602&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139579&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/list?code=battle&page=2> (referer: None)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139542&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139544&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139543&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139503&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66603&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:36:56 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139579&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:36:56 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139542&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:36:56 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139544&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:36:56 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139543&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:36:56 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139503&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66590&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/list?code=politic&page=2> (referer: None)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518953&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/list?code=battle&page=1> (referer: None)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518922&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518921&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518926&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66601&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497979&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/list?code=nnews&page=2> (referer: None)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518923&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518927&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518924&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518928&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518929&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518925&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344495&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:36:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344496&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:36:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344527&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:36:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344526&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:36:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344528&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:36:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344494&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:36:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344497&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:36:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344529&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:36:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344525&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:36:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344533&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:36:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532788&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:36:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344530&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:36:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344538&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:36:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344535&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:36:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344539&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:36:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344537&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:36:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344541&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:36:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344531&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:36:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344534&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:36:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344543&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:36:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344546&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:36:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344536&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:36:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344547&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:37:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344548&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:37:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344549&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:37:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344551&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:37:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344552&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:37:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344553&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:37:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344550&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:37:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344532&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:37:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344540&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:37:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344494&rtn=%2Flist%3Fcode%3Dbattle> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:37:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344544&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:37:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344474&rtn=%2Flist%3Fcode%3Dbattle> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:37:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532789&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532790&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344505&rtn=%2Flist%3Fcode%3Dbattle> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:37:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532792&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344545&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:37:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344555&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:37:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532794&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344542&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:37:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532796&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532795&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532798&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532800&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344523&rtn=%2Flist%3Fcode%3Dbattle> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:37:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344514&rtn=%2Flist%3Fcode%3Dbattle> (referer: https://www.bobaedream.co.kr/list?code=battle&page=1)
+2022-02-04 09:37:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bobaedream.co.kr/view?code=battle&No=1344514&rtn=%2Flist%3Fcode%3Dbattle>
+{'title': '빡쳤던 현암정 문콕후기',
+ 'url': ['https://www.bobaedream.co.kr/view?code=battle&No=1344514']}
+2022-02-04 09:37:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532799&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532802&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532806&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532797&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532805&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532791&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532809&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532793&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532808&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532813&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532812&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532801&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532815&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532816&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532803&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532814&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344498&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344500&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344501&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532807&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344503&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532818&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344504&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344506&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532810&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344508&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532811&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344505&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344511&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344509&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344507&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344502&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532817&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=2)
+2022-02-04 09:37:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344516&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344517&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344519&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344514&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bobaedream.co.kr/view?code=battle&No=1344514&bm=1>
+{'title': '빡쳤던 현암정 문콕후기',
+ 'url': ['https://www.bobaedream.co.kr/view?code=battle&No=1344514']}
+2022-02-04 09:37:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344499&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344512&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344523&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344524&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344522&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344515&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518933&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:37:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518931&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:37:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344521&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344520&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518934&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:37:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518938&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:37:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344513&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518930&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:37:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518937&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:37:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518935&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:37:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518940&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:37:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518943&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:37:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518945&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:37:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=battle&No=1344518&bm=1> (referer: https://www.bobaedream.co.kr/list?code=battle&page=2)
+2022-02-04 09:37:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518944&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:37:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518947&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:37:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518948&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:37:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518949&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:37:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518952&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:37:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497874&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518946&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:37:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518936&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:37:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518941&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:37:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518942&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:37:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497981&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497973&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497978&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497982&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497985&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497937&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497974&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497953&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497989&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518939&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:37:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497994&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497917&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497983&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518951&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=2)
+2022-02-04 09:37:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497960&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497992&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497995&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497963&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497984&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497980&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=498001&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497970&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497915&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497971&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497997&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497998&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497999&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518957&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518958&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497993&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518960&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518961&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518954&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518956&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518959&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518963&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518966&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518962> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518968&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518969&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518955&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518972&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518965&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518967&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=498000&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518970&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518977&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518974&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518979&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518976&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518964&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497996&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=1)
+2022-02-04 09:37:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518973&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518982&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518329&rtn=%2Flist%3Fcode%3Dfreeb> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2515035&rtn=%2Flist%3Fcode%3Dfreeb> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518981&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2515049&rtn=%2Flist%3Fcode%3Dfreeb> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2515859&rtn=%2Flist%3Fcode%3Dfreeb> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518975&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518983&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532821&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532824&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532825&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532826&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532823&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518978&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2517783&rtn=%2Flist%3Fcode%3Dfreeb> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532827&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532830&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532820&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=freeb&No=2518980&bm=1> (referer: https://www.bobaedream.co.kr/list?code=freeb&page=1)
+2022-02-04 09:37:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532832&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532835&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532819&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532829&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532831&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532834&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532838&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532828&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532839&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532843&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532844&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532836&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532846&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532833&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532848&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532849&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=529253&rtn=%2Flist%3Fcode%3Dpolitic> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532842&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=530171&rtn=%2Flist%3Fcode%3Dpolitic> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=530744&rtn=%2Flist%3Fcode%3Dpolitic> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=529607&rtn=%2Flist%3Fcode%3Dpolitic> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532841&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139505&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532837&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139506&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139507&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532840&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139505&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139509&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139512&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532847&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139508&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139506&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139513&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139514&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139507&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139509&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139512&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139517&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139508&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139513&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139511&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139514&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139515&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=529499&rtn=%2Flist%3Fcode%3Dpolitic> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139517&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139522&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139510&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139511&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=politic&No=532845&bm=1> (referer: https://www.bobaedream.co.kr/list?code=politic&page=1)
+2022-02-04 09:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139515&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139516&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139530&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139523&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139527&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139521&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139533&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139528&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139526&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139534&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139532&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139522&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139510&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139538&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139516&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139531&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139530&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139523&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139527&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139521&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139533&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139528&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139526&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139534&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139532&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139538&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139525&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139531&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497858&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139525&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497822&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497803&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497806&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139540&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139540&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497832&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139536&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497828&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139536&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497861&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497859&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497834&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497824&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497793&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497862&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497987&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497797&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139537&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+2022-02-04 09:37:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497986&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497975&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:32 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139537&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=2)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497805&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497830&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497833&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497976&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497852&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497972&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497977&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497812&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497991&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139546&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139548&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139546&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139548&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139545&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497990&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139545&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139551&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497988&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139552&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139550&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139551&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139552&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139550&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497870&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139554&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139560&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139555&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139566&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139559&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139567&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139562&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139549&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139554&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139560&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139555&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139566&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139559&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139567&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139562&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139549&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139568&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497827&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139572&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139553&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139574&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139575&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139578&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139580&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:35 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.bobaedream.co.kr/view?code=event_notice&No=568> from <GET http://www.bobaedream.co.kr/view?code=event_notice&No=568>
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139571&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139352&rtn=%2Flist%3Fcode%3Dad> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139569&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139333&rtn=%2Flist%3Fcode%3Dad> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139491&rtn=%2Flist%3Fcode%3Dad> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139568&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139572&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139553&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139574&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139575&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139578&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139580&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139571&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139352&rtn=%2Flist%3Fcode%3Dad> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139569&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139333&rtn=%2Flist%3Fcode%3Dad> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139491&rtn=%2Flist%3Fcode%3Dad> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139570&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66636&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139262&rtn=%2Flist%3Fcode%3Dad> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139577&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139570&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66637&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139262&rtn=%2Flist%3Fcode%3Dad> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139577&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66638&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139546&rtn=%2Flist%3Fcode%3Dad> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66646&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:36 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139546&rtn=%2Flist%3Fcode%3Dad> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=ad&No=139576&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+2022-02-04 09:37:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66645&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:36 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=ad&No=139576&bm=1> (referer: https://www.bobaedream.co.kr/list?code=ad&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66649&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66647&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66650&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66652&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66651&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66661&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66662&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=event_notice&No=568> (referer: None)
+2022-02-04 09:37:37 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=event_notice&No=568> (referer: None)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66665&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66667&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66670&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66653&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=best&No=497851&vdate=> (referer: https://www.bobaedream.co.kr/list?code=best&page=2)
+2022-02-04 09:37:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66674&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66673&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66678&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66659&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66675&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66681&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66683&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66686&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66676&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66666&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66688&rtn=%2Flist%3Fcode%3Dfamous> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66686&rtn=%2Flist%3Fcode%3Dfamous> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66688&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66687&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66655&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66593&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66594&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66598&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66595&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66592&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66600&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66599&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66604&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66607&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66591&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66609&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66687&rtn=%2Flist%3Fcode%3Dfamous> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66606&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=event_notice&No=629> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66608&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:43 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bobaedream.co.kr/view?code=event_notice&No=629> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+Traceback (most recent call last):
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/seungeun/scrapy_test/scrapy/bobae_commuity/bobae_commuity/spiders/commuity_spider.py", line 34, in parse_page_contents
+    title = response.xpath('//*[@id="print_area"]/div[1]/dl/dt/strong/text()')[0].extract()
+  File "/home/seungeun/anaconda3/lib/python3.8/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2022-02-04 09:37:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66614&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66618&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66610&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66630&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66612&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66605&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66626&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66691&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=1)
+2022-02-04 09:37:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66635&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66633&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66634&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66632&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bobaedream.co.kr/view?code=famous&No=66627&bm=1> (referer: https://www.bobaedream.co.kr/list?code=famous&page=2)
+2022-02-04 09:37:45 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-02-04 09:37:45 [scrapy.extensions.feedexport] INFO: Stored csv feed (2 items) in: ./spider.csv
+2022-02-04 09:37:45 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 208932,
+ 'downloader/request_count': 400,
+ 'downloader/request_method_count/GET': 400,
+ 'downloader/response_bytes': 10194758,
+ 'downloader/response_count': 400,
+ 'downloader/response_status_count/200': 399,
+ 'downloader/response_status_count/302': 1,
+ 'dupefilter/filtered': 4,
+ 'elapsed_time_seconds': 50.572282,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 2, 4, 0, 37, 45, 417530),
+ 'httpcompression/response_bytes': 54397556,
+ 'httpcompression/response_count': 399,
+ 'item_scraped_count': 2,
+ 'log_count/DEBUG': 403,
+ 'log_count/ERROR': 67,
+ 'log_count/INFO': 11,
+ 'memusage/max': 57716736,
+ 'memusage/startup': 57716736,
+ 'request_depth_max': 1,
+ 'response_received_count': 399,
+ 'scheduler/dequeued': 400,
+ 'scheduler/dequeued/memory': 400,
+ 'scheduler/enqueued': 400,
+ 'scheduler/enqueued/memory': 400,
+ 'spider_exceptions/IndexError': 67,
+ 'start_time': datetime.datetime(2022, 2, 4, 0, 36, 54, 845248)}
+2022-02-04 09:37:45 [scrapy.core.engine] INFO: Spider closed (finished)
