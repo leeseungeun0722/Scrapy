@@ -1,0 +1,3 @@
+scrapy_code
+study
+text.txt
