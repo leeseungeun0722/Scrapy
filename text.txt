@@ -1,3 +1,4 @@
 scrapy_code
 study
 text.txt
+ls
